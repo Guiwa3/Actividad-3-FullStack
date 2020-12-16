@@ -1,0 +1,48 @@
+body {
+    background-image: url(images/publico2.jpg);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+header{
+    text-align: center;
+    color: black
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0%;
+    display: inline-block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+li a:hover {
+    background-color: darkgoldenrod;
+  }
+
+.btn{
+  padding: 10px 35px;
+  background-color: darkgoldenrod;
+  border: none;
+  display: inline-block;
+}
+
+
+
+
